@@ -2362,7 +2362,7 @@ HomeTab.create_title({
 })
 
 HomeTab.create_title({
-	name = 'Cruz Security',
+	name = 'Argon Security',
 	section = 'right'
 })
 
@@ -2408,7 +2408,7 @@ HomeTab.create_button({
                 })
             else
                 LibraryNotify:MakeNotify({
-                    Title = "Cruz:",
+                    Title = "Cruz Hub:",
                     Description = "UnSupport",
                     Content = "Your executor doesn't support clipboard. Please paste this link in your browser: " .. JoinDiscord,
                     Time = 0.5,
@@ -3874,7 +3874,7 @@ SettingsTab.create_toggle({
 })
 
 SettingsTab.create_button({
-	name = 'Exit Cruz Hub',
+	name = 'Exit Argon Hub X',
 	section = 'left',
 	callback = function()
         if Connections_Manager['Auto Parry'] then
@@ -3926,7 +3926,7 @@ SettingsTab.create_button({
         LibraryNotify:MakeNotify({
             Title = "Cruz Hub:",
             Description = "Protection",
-            Content = "WARNING: Protection - Cruz has been Disabled.",
+            Content = "WARNING: Protection - Argon has been Disabled.",
             Time = 0.5,
             Delay = 5
         })
@@ -3934,7 +3934,7 @@ SettingsTab.create_button({
         LibraryNotify:MakeNotify({
             Title = "Cruz Hub:",
             Description = "Exit",
-            Content = "Thank you for using Cruz Hub XD.",
+            Content = "Thank you for using Cruz Hub.",
             Time = 0.5,
             Delay = 5
         })
@@ -4109,7 +4109,7 @@ SettingsTab.create_button({
     callback = function()
         setclipboard(currentJobId)
         LibraryNotify:MakeNotify({
-            Title = " Cruz Hub:",
+            Title = "Cruz Hub:",
             Description = "Job ID",
             Content = "Job ID Copied to your clipboard.",
             Time = 0.5,
