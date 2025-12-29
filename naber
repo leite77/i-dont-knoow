@@ -1,4 +1,4 @@
-local LibraryNotify = loadstring(game:HttpGet("https://gist.githubusercontent.com/AgentX771/930b5a9b78517ebfed75475fb3f6c9f6/raw/f20d3cc01b72d0ee6581e89b0e2bd3eba069c40e/gistfile1.txt"))()
+local LibraryNotify = loadstring(game:HttpGet('https://gist.githubusercontent.com/leite77/987f42e1894e313f03dacbb199aafda9/raw/3b5c2942552c03286db31a3af557465601e26293/gistfile1.txt'))()
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/AgentX771/ArgonHubX/refs/heads/main/UIArgon/ArgonRise.lua'))()
 for _, v in next, {"Argon Hub X", "Argon", "Hub X", "Arg", "Argon_Hub_X"} do
     pcall(delfolder, v)
